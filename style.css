@@ -1,0 +1,89 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: #141519;
+    color: #fff;
+}
+
+.wrapper {
+    background: #222933;
+    width: 470px;
+    padding: 40px;
+    border-radius: 40px;
+    
+}
+.star-icon {
+    background-color: #272e38;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+.title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.nums {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    background-color: #272e38;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.num:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    transition: 2s ease;
+    transform: rotateX(360deg)
+
+}
+
+.num:active {
+    background-color: #fc7613;
+}
+
+
+.button {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    /* color: #fff; */
+    background-color: #fc7613;
+}
+
+.button:hover {
+    background-color: #fff;
+    transition: 1s ease-in-out;
+    transform: rotate(360deg);
+}
