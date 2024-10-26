@@ -40,30 +40,41 @@ body {
 .nums {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 30px;
 }
 .num {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    color: rgb(182, 182, 182);
+    font-size: 16px;
+    border: none;
     width: 55px;
     height: 55px;
     background-color: #272e38;
     padding: 20px;
     border-radius: 50%;
-}
+} 
 
-.num:hover {
+
+
+ .num:hover {
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
     cursor: pointer;
     background-color: #fff;
     color: #000;
     transition: 2s ease;
-    transform: rotateX(360deg)
+    /* transform: rotateX(360deg); */
 
 }
 
 .num:active {
     background-color: #fc7613;
+     border: none;
 }
 
 
@@ -77,13 +88,13 @@ body {
     width: 100%;
     padding: 20px;
     border-radius: 40px;
-    text-decoration: none;
-    /* color: #fff; */
+    text-decoration: none; 
     background-color: #fc7613;
 }
 
 .button:hover {
     background-color: #fff;
-    transition: 1s ease-in-out;
+    transition: 1.2s ease-in-out;
     transform: rotate(360deg);
+    font-size: 30px;
 }
